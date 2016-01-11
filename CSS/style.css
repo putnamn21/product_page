@@ -1,0 +1,131 @@
+/* edits for top navbar*/
+
+.navbar-toggle, .icon-bar 
+{
+    border: 2px solid #41b6e6;
+}
+.navbar
+{
+    background-color:rgba(255, 255, 255,0.92);
+    height:59px;
+    border: 1px solid #41b6e6;
+    border-radius:4px;
+    margin-top:10px;
+}
+.navbar-align
+{
+    margin:10px 0;
+}
+.navbar-nav li
+{
+    border-left: 1px solid #41b6e6;
+    height: 40px;
+    margin-top: -1px;
+    
+}
+.navbar-nav li:first-child
+{
+    border-left: 0px;
+}
+.navbar-nav li a
+{
+    padding: 10px; 
+}
+
+a 
+{
+    color: #41b6e6
+}
+a:hover
+{
+    color:#5f5f5f;
+}
+.header-logo
+{
+    width:150px;
+    margin: -25px 0 0 -5px;
+    
+}
+/* END */
+
+.row-padding-top
+{
+    margin: 100px 0;
+}
+.row-padding-bottom
+{
+    margin: 0 0 75px;
+}
+.small 
+{
+    font-size: .8em;
+}
+
+/* edits specific for purchase section 2*/
+
+.form-control-small 
+{
+    width: 75px;
+}
+.form-padding
+{
+    margin-top:15px;
+}
+.btn-default:hover
+{
+ border-color:#41b6e6;
+ color:#41b6e6;
+ background-color:white;
+}
+.btn-default:focus
+{
+    background-color:white;
+    border-color:#41b6e6;
+}
+/* END */
+
+
+/*
+-----------------------------------
+    Code snippet by @maridlcrmn for carousel
+-----------------------------------
+*/
+
+#carousel-custom {
+            margin: 20px auto;
+            width: 100%px;
+        }
+        #carousel-custom .carousel-indicators {
+            margin: 10px 0 0;
+            overflow: auto;
+            position: static;
+            text-align: left;
+            white-space: nowrap;
+            width: 100%;
+        }
+        #carousel-custom .carousel-indicators li {
+            background-color: transparent;
+            -webkit-border-radius: 0;
+            border-radius: 0;
+            display: inline-block;
+            height: auto;
+            margin: 0 !important;
+            width: auto;
+        }
+        #carousel-custom .carousel-indicators li img {
+            display: block;
+        }
+        #carousel-custom .carousel-outer {
+            position: relative;
+        }
+.thumbnail
+{
+    width:100px;
+}
+/* edits specific for details section 3*/
+.details-box
+{
+    line-height: 25px;
+    padding: 15px 0 0 15px;
+}
+
